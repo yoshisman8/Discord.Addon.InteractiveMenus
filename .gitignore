@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs/Discord.Addon.InteractiveMenus
+/Discord.Addon.InteractiveMenus/bin
+/Discord.Addon.InteractiveMenus/obj
+/Discord.Addon.InteractiveMenus/Properties/PublishProfiles
