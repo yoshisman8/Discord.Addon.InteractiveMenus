@@ -84,7 +84,7 @@ namespace Discord.Addon.InteractiveMenus
 		}
 		public async Task RefeshEmbed()
 		{
-			await Message.ModifyAsync(x => x.Content = " ");
+			await Message.ModifyAsync(x => x.Content = ".");
 			if (Minimized)
 			{
 				await Message.ModifyAsync(x => x.Embed = new EmbedBuilder().WithDescription("Minimized \"" + _Name + "\".").Build());

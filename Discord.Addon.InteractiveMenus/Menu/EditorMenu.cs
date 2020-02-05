@@ -107,7 +107,7 @@ namespace Discord.Addon.InteractiveMenus
 			{
 				eb.AddField(((Cursor==i)? "🔹 " : "")+Options[i].Name, Options[i].Description);
 			}
-			await Message.ModifyAsync(x => x.Content = " ");
+			await Message.ModifyAsync(x => x.Content = ".");
 			await Message.ModifyAsync(x => x.Embed = eb.Build());
 		}
 		public class EditorOption
